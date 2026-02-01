@@ -1,0 +1,61 @@
+#sidebar {
+  left: 0;             /* Stick to the left edge */
+  width: 150px;        /* Set a width */
+  height: 100vh;       /* Full viewport height */
+  background-color: #f0f0f0; /* Any background color you want */
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1); /* Optional subtle shadow */
+  padding: 20px;       /* Optional inner spacing */
+  overflow-y: auto;    /* Scroll if content is taller than sidebar */
+}
+
+#root{
+background-image: url('src/backGrounds/wallpaperA.webp');
+}
+
+#bottomBar{
+  text-align: center;
+}
+
+.centrePiece{
+  text-align: center;
+  flex: 1;
+}
+
+#projects-of-mine {
+  display: flex;            /* use flexbox */
+  justify-content: center;  /* center horizontally */
+  align-items: center;      /* center vertically (if div has height) */
+  flex-direction: column;   /* stack children vertically, optional */
+  text-align: center;       /* center text inside children */
+  width: 100%;              /* take full width */
+  margin-top: 2rem;         /* optional spacing from heading */
+}
+
+#main-content {
+   display: flex; 
+}
+
+.responsive-calendar {
+  width: 100% !important;   /* make calendar fill container width */
+  height: auto !important;  /* allow height to adjust automatically */
+  font-size: 0.8rem;        /* shrink text/buttons proportionally */
+}
+
+/* Shrink the weekdays and day numbers */
+.responsive-calendar .MuiPickersCalendar-weekDayLabel,
+.responsive-calendar .MuiPickersCalendar-day {
+  font-size: 0.8rem;
+  padding: 4px;
+}
+
+/* Shrink the month/year header */
+.responsive-calendar .MuiPickersCalendarHeader-label {
+  font-size: 0.9rem;       /* smaller font for month/year */
+}
+
+/* Optional: shrink the navigation arrows */
+.responsive-calendar .MuiPickersCalendarHeader-switchViewButton,
+.responsive-calendar .MuiPickersArrowSwitcher-button {
+  font-size: 0.8rem;
+  padding: 2px;
+}
