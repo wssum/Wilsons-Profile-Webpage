@@ -1,0 +1,58 @@
+#sidebar {
+  left: 0;            
+  width: 150px;        
+  height: 100vh;    
+  background-color: #f0f0f0; 
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1); 
+  padding: 20px;     
+  overflow-y: auto;    
+}
+
+#root{
+background-image: url('/wallpaperA.jpg');
+}
+
+#bottomBar{
+  text-align: center;
+}
+
+.centrePiece{
+  text-align: center;
+  flex: 1;
+}
+
+#projects-of-mine {
+  display: flex;            
+  justify-content: center;  
+  align-items: center;     
+  flex-direction: column;  
+  text-align: center;       
+  width: 100%;             
+  margin-top: 2rem;        
+}
+
+#main-content {
+   display: flex; 
+}
+
+.responsive-calendar {
+  width: 100% !important;   
+  height: auto !important;  
+  font-size: 0.8rem;        
+}
+
+.responsive-calendar .MuiPickersCalendar-weekDayLabel,
+.responsive-calendar .MuiPickersCalendar-day {
+  font-size: 0.8rem;
+  padding: 4px;
+}
+
+.responsive-calendar .MuiPickersCalendarHeader-label {
+  font-size: 0.9rem;       
+}
+
+.responsive-calendar .MuiPickersCalendarHeader-switchViewButton,
+.responsive-calendar .MuiPickersArrowSwitcher-button {
+  font-size: 0.8rem;
+  padding: 2px;
+}
