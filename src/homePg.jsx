@@ -1,10 +1,10 @@
-import MeAndBruce from "./src/images/meAndBruce.jpg";
+import meAndBruce from './images/meAndBruce.jpg';
 
 function HomePg (){
  return(
   <div className = "centrePiece">
  <img 
-  src = {MeAndBruce}
+  src = {meAndBruce}
   alt="Me and my Cat"
   style={{
      width: '250px',   
