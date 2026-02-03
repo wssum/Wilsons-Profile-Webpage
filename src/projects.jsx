@@ -3,7 +3,8 @@ import SelectActionCard from "./myProj";
 
 function ProjPg (){
  return(
-  <div className = "centrePiece">
+  <div className = "centrePiece"
+  style={{ backgroundImage: 'url(/wallpaperA.jpg)' }}>
       <h1 style={{
     border: "2px solid black", // thickness, style, color
     padding: "10px",           // adds some space inside the border
