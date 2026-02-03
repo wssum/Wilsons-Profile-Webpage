@@ -11,14 +11,14 @@ const cards = [
     title: 'Wills Forecast',
     description: 'This is a weather Forecast website I made when I was in college. It uses TailwindCSS and data I found off the internet',
     path: "https://willsforecasts-3fe0e93c7230.herokuapp.com/",
-    picture:"src/images/weatherPicture.jpg"
+    picture:"./src/images/weatherPicture.jpg"
   },
   {
     id: 2,
     title: 'Schedule Me Random',
     description: 'This is a scheduling website made for managers to schedule their workers randomly',
     path: "https://willsschedulemaker-a78c7ca1f8c1.herokuapp.com/",
-    picture: "src/images/calendarPicture.jpg"
+    picture: "./src/images/calendarPicture.jpg"
   },
 ];
 

@@ -9,7 +9,7 @@
 }
 
 #root{
-background-image: url('src/backGrounds/wallpaperA.webp');
+background-image: url('./src/backGrounds/wallpaperA.webp');
 }
 
 #bottomBar{

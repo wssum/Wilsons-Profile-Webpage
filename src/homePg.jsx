@@ -2,7 +2,7 @@ function HomePg (){
  return(
   <div className = "centrePiece">
  <img 
-  src="src/images/meAndBruce.jpg"
+  src="./src/images/meAndBruce.jpg"
   alt="Me and my Cat"
   style={{
      width: '250px',   
