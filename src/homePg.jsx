@@ -1,11 +1,9 @@
 import meAndBruce from './images/meAndBruce.jpg';
-import bgA from "./backGrounds/wallpaperA.webp"
 
 function HomePg (){
  return(
 <div
   className="centrePiece"
-  style={{ backgroundImage: {meAndBruce} }}
 >
  <img 
   src = {meAndBruce}

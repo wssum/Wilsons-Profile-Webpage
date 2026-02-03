@@ -8,6 +8,10 @@
   overflow-y: auto;    /* Scroll if content is taller than sidebar */
 }
 
+#root{
+background-image: url('/backgrounds/wallpaperA.webp');
+}
+
 #bottomBar{
   text-align: center;
 }
