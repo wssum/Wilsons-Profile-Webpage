@@ -3,7 +3,6 @@ import meAndBruce from './images/meAndBruce.jpg';
 function HomePg (){
  return(
 <div
-style={{ backgroundImage: 'url(/meAndBruce.jpg)' }}
   className="centrePiece"
 >
  <img 
