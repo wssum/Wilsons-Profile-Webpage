@@ -5,7 +5,7 @@ function HomePg (){
  return(
 <div
   className="centrePiece"
-  style={{ backgroundImage: `url(${bgA})` }}
+  style={{ backgroundImage: {bgA} }}
 >
  <img 
   src = {meAndBruce}
