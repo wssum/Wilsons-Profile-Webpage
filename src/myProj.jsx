@@ -4,6 +4,9 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import CardActionArea from '@mui/material/CardActionArea';
+import weatherPic from './images/weatherPicture.jpg';
+import calendarPic from './images/calendarPicture.jpg';
+
 
 const cards = [
   {
@@ -11,14 +14,14 @@ const cards = [
     title: 'Wills Forecast',
     description: 'This is a weather Forecast website I made when I was in college. It uses TailwindCSS and data I found off the internet',
     path: "https://willsforecasts-3fe0e93c7230.herokuapp.com/",
-    picture:"./src/images/weatherPicture.jpg"
+    picture: calendarPic
   },
   {
     id: 2,
     title: 'Schedule Me Random',
     description: 'This is a scheduling website made for managers to schedule their workers randomly',
     path: "https://willsschedulemaker-a78c7ca1f8c1.herokuapp.com/",
-    picture: "./src/images/calendarPicture.jpg"
+    picture: weatherPic
   },
 ];
 
