@@ -23,8 +23,6 @@ createRoot(document.getElementById('root')).render(
       </div>
 
     </BrowserRouter>
-    {
-   /*<Footer/>*/
-    }
+  <Footer/>
   </StrictMode>,
 )

@@ -14,8 +14,7 @@ import { Link } from "react-router-dom";
 
 const pages = [
   { label: "Home", path: "/" },
-  { label: "Projects", path: "/projects" },
-  { label: "My Github", path: "https://github.com/wssum", external: true }
+  { label: "Projects", path: "/projects" }
 ];
 
 function ResponsiveAppBar() {
