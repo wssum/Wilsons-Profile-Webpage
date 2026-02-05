@@ -9,7 +9,8 @@ function ProjPg (){
     border: "2px solid black", 
     padding: "10px",           
     display: "inline-block",  
-    borderRadius: "8px" 
+    borderRadius: "8px",
+    fontFamily: "monospace" 
   }}>Projects that I have made:</h1>
       <div id="projects-of-mine">
     <SelectActionCard/>

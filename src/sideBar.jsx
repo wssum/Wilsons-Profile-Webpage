@@ -3,7 +3,8 @@ import BasicModal from './emailModal';
 
 function Sidebar() {
   return (
-    <div id="sidebar">
+    <div id="sidebar"
+    >
       <BasicDateCalendar />
       <BasicModal/>
     </div>

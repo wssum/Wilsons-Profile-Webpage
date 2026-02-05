@@ -9,13 +9,14 @@ function Footer() {
         textAlign: 'center',
         backgroundImage: `url(/navBarBackGroundA.jpg)`,   
         padding: '5px',
+        
       }}
     >
       <a href = "https://github.com/wssum">
-         <Ghub style={{ fontSize: '80px' }} />
+         <Ghub style={{ fontSize: '80px', filter: "drop-shadow(1px 1px 4px rgba(0,0,0,0.5))"}} />
       </a>
   <a href = "https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BWF3akeXmRaCt8dbAI7lmdg%3D%3D">
-         <LinkIn style={{ fontSize: '80px' }} />
+         <LinkIn style={{ fontSize: '80px', filter: "drop-shadow(1px 1px 4px rgba(0,0,0,0.5))"}} />
       </a>
     </div>
   );
