@@ -6,9 +6,9 @@ function ProjPg (){
   <div className = "centrePiece"
   style={{ backgroundImage: 'url(/wallpaperA.jpg)' }}>
       <h1 style={{
-    border: "2px solid black", // thickness, style, color
-    padding: "10px",           // adds some space inside the border
-    display: "inline-block",   // makes the border hug the text
+    border: "2px solid black", 
+    padding: "10px",           
+    display: "inline-block",  
     borderRadius: "8px" 
   }}>Projects that I have made:</h1>
       <div id="projects-of-mine">

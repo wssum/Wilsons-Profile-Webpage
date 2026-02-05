@@ -7,10 +7,7 @@ function Footer() {
       id="bottomBar"
       style={{
         textAlign: 'center',
-        backgroundImage: "url('src/navBarBG/navBarBackGroundA.jpg')", 
-        backgroundSize: 'cover', 
-        backgroundRepeat: 'no-repeat', 
-        backgroundPosition: 'center',
+        backgroundImage: `url(/navBarBackGroundA.jpg)`,   
         padding: '5px',
       }}
     >
